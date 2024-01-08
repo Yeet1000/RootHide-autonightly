@@ -32,5 +32,5 @@ jobs:
       - name: Upload package
         uses: actions/upload-artifact@v3
         with:
-          name: "Package built by ${{ matrix.os }}"
+          name: "Bootstrap.tipa"
           path: ${{ github.workspace }}/packages/*.tipa
